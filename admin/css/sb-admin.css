@@ -223,26 +223,26 @@ ul.alert-dropdown {
     color: #df8a13;
 }
 
-/* .navbar-inverse {
-    border: none !important;
 
-    background-color: #3bb78f;
-background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
-
-
-} */
 #page-wrapper {
     min-height: 100vh;
 }
 /* .top-nav>li>a {
-    color: #fff;
+    color: #fdfcfa;
 }
 .navbar-inverse .navbar-brand {
-    color: #fff;
+    color: #fdfcfa;
+} */
+.navbar-inverse {
+    border: none !important;
+
+    background-color: #333333;
+
+
 }
 .side-nav {
-    background-color: #043959;
-} */
+    background-color: #333333;
+} 
 @media (min-width:768px) {
     .side-nav {
         min-height: 100vh;
@@ -250,7 +250,7 @@ background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
 } 
 /* .navbar-inverse .navbar-nav>li>a {
     color: #fff;
-}
-.navbar-inverse .navbar-nav>li {
+} */
+/* .navbar-inverse .navbar-nav>li {
     border-bottom: 1px solid #ddd;
 } */
