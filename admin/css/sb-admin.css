@@ -236,12 +236,12 @@ ul.alert-dropdown {
 .navbar-inverse {
     border: none !important;
 
-    background-color: #333333;
+    background-color: #030200;
 
 
 }
 .side-nav {
-    background-color: #333333;
+    background-color: #030200;
 } 
 @media (min-width:768px) {
     .side-nav {
