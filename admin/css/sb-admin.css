@@ -222,3 +222,35 @@ ul.alert-dropdown {
 .panel-yellow a:hover {
     color: #df8a13;
 }
+
+/* .navbar-inverse {
+    border: none !important;
+
+    background-color: #3bb78f;
+background-image: linear-gradient(315deg, #3bb78f 0%, #0bab64 74%);
+
+
+} */
+#page-wrapper {
+    min-height: 100vh;
+}
+/* .top-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.side-nav {
+    background-color: #043959;
+} */
+@media (min-width:768px) {
+    .side-nav {
+        min-height: 100vh;
+    }
+} 
+/* .navbar-inverse .navbar-nav>li>a {
+    color: #fff;
+}
+.navbar-inverse .navbar-nav>li {
+    border-bottom: 1px solid #ddd;
+} */

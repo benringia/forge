@@ -5,7 +5,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">SB Admin</a>
+                <a class="navbar-brand" href="../index.php">Visit Home Page &nbsp;<i class="fa fa-home"></i></a>
             </div>
 
 
