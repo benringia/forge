@@ -226,31 +226,38 @@ ul.alert-dropdown {
 
 #page-wrapper {
     min-height: 100vh;
+    background: #f8f9fb;
 }
-/* .top-nav>li>a {
-    color: #fdfcfa;
+.top-nav>li>a {
+    color: #55667e;
 }
 .navbar-inverse .navbar-brand {
-    color: #fdfcfa;
-} */
+    color: #55667e;
+    border: none !important;
+}
+.navbar-brand:hover {
+    color: #333 !important;
+}
 .navbar-inverse {
     border: none !important;
 
-    background-color: #030200;
+    background-color: #fff;
 
 
 }
 .side-nav {
-    background-color: #030200;
+    background-color: #fff;
 } 
 @media (min-width:768px) {
     .side-nav {
         min-height: 100vh;
+        top: 50px;
     }
 } 
-/* .navbar-inverse .navbar-nav>li>a {
-    color: #fff;
-} */
+.navbar-inverse .navbar-nav>li>a {
+    color: #55667e;
+    border-bottom: 1px solid #eaeaea;
+}
 /* .navbar-inverse .navbar-nav>li {
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #eaeaea;
 } */
