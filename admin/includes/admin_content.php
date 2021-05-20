@@ -8,14 +8,18 @@
             <small>Subheading</small>
         </h1>
         <?php 
-        $user = new User();
-
-            $res_set = $user->find_all_users();
+        
+            $res_set =User::find_all_users();
 
             while($row = mysqli_fetch_array($res_set)) {
                 echo $row['username'] . '<br>';
             }
 
+            $res_id = User::find_user_id(1);
+
+            $user = User::instantiation($res_id);
+
+            echo $user->username;
            
         ?>
        
