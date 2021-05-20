@@ -9,17 +9,23 @@
         </h1>
         <?php 
         
-            $res_set =User::find_all_users();
+           
 
-            while($row = mysqli_fetch_array($res_set)) {
-                echo $row['username'] . '<br>';
-            }
+            // $res_id = User::find_user_id(1);
 
-            $res_id = User::find_user_id(1);
+            // $user = User::instantiation($res_id);
 
-            $user = User::instantiation($res_id);
+            // echo $user->username;
 
-            echo $user->username;
+            // $users =User::find_all_users();
+
+            // foreach($users as $user) {
+            //     echo $user->username . '<br>';
+            // }
+
+            $user_result = User::find_user_by_id(1);
+            
+            echo $user_result->username;
            
         ?>
        
