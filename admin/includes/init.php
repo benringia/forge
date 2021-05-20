@@ -1,4 +1,5 @@
 <?php 
-
-    include 'new_config.php';
-    include 'database.php';
+     
+     require_once 'new_config.php';
+    include_once 'database.php';
+    include_once 'users.php';
