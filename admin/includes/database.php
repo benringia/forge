@@ -17,8 +17,6 @@ class Database {
 
             die("Error: ". $this->connection->connect_error);
         }
-
-        // die("Error: ". $this->connection->connect_error) ?: $this->connection->connect_errno;
     }
 
     public function query($sql) {
