@@ -14,3 +14,10 @@ function class_auto_loader($class) {
 }
 
 spl_autoload_register('class_auto_loader');
+
+
+function redirect($loc) {
+
+    header('Location: '. $loc);
+    
+}
