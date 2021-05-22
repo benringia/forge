@@ -7,30 +7,35 @@
         redirect('index.php');
     }
 
-    $username = '';
-    $password = '';
 
     if(isset($_POST['submit'])) {
 
         $username = trim($_POST['username']);
         $password = trim($_POST['password']);
 
-    }
 
-    //method to chech db user
 
-    $user_found = User::verify_user($username, $password);
+        //method to chech db user
 
-    if($user_found) {
-        
-        $session -> login($user_found);
-        redirect('index.php');
+        $user_found = User::verify_user($username, $password);
+
+        if($user_found) {
+            
+            $session -> login($user_found);
+            redirect('index.php');
+
+        } else {
+
+            $message = "Invalid Username or Password";
+
+        } 
 
     } else {
 
-        $message = "Invalid Password or Username";
-
-    } 
+        $username = '';
+        $password = '';
+        $message = '';
+    }
 
 
 ?>
@@ -39,7 +44,7 @@
 
 <div class="col-md-4 col-md-offset-3">
 
-    <!-- <h4 class="bg-danger"><?php echo $message?></h4> -->
+    <h4 class="bg-danger"><?php echo $message?></h4>
 	
     <form id="login-id" action="" method="post">
         
