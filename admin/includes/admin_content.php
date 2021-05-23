@@ -13,14 +13,19 @@
             
             // echo $user_result->username;
 
-            $user = new User();
+            // $user = new User();
 
-            $user -> username = "example";
-            $user -> password = "example1";
-            $user -> first_name = "example2";
-            $user -> last_name = "example3";
+            // $user -> username = "example";
+            // $user -> password = "example1";
+            // $user -> first_name = "example2";
+            // $user -> last_name = "example3";
 
-            $user -> create();
+            // $user -> create();
+
+            $user = User::find_user_by_id(3);
+           
+
+            $user -> delete();
            
         ?>
        
