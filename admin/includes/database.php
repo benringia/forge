@@ -35,9 +35,16 @@ class Database {
 
     }
 
+    public function insert_user_id() {
+        
+        return mysqli_insert_id($this -> connection);
+
+    }
+
     public function insert_id() {
         return $this->connection->insert_id; 
     }
+    
 
 }
 

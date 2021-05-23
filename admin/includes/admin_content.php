@@ -8,24 +8,19 @@
             <small>Subheading</small>
         </h1>
         <?php 
-        
-           
 
-            // $res_id = User::find_user_id(1);
-
-            // $user = User::instantiation($res_id);
-
-            // echo $user->username;
-
-            // $users =User::find_all_users();
-
-            // foreach($users as $user) {
-            //     echo $user->username . '<br>';
-            // }
-
-            $user_result = User::find_user_by_id(1);
+            // $user_result = User::find_user_by_id(1);
             
-            echo $user_result->username;
+            // echo $user_result->username;
+
+            $user = new User();
+
+            $user -> username = "example";
+            $user -> password = "example1";
+            $user -> first_name = "example2";
+            $user -> last_name = "example3";
+
+            $user -> create();
            
         ?>
        
