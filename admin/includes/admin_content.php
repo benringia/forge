@@ -13,14 +13,22 @@
             
             // echo $user_result->username;
 
-            // $user = new User();
+            $user = new User();
 
-            // $user -> username = "example";
-            // $user -> password = "example1";
-            // $user -> first_name = "example2";
-            // $user -> last_name = "example3";
+            $user -> username = "22exampl2e";
+            $user -> password = "2example23";
+            $user -> first_name = "2exampl2e2";
+            $user -> last_name = "2exam1ple3";
 
-            // $user -> create();
+            $user -> create();
+
+            // $user = User::find_user_by_id(4);
+            // $user -> username = "newupdate1";
+            // $user -> password = "newupdate";
+            // $user -> first_name = "newupdate";
+            // $user -> last_name = "newupdate";
+
+            // $user -> update();
 
             // $user = User::find_user_by_id(2);
            
@@ -28,13 +36,13 @@
             // $user -> delete();
 
             
-            $user = User::find_user_by_id(4);
+            // $user = User::find_user_by_id(4);
            
-            $user -> username = "updated";
-            $user -> password = "updated";
-            $user -> first_name = "updated";
-            $user -> last_name = "updated";
-            $user -> save();
+            // $user -> username = "updated";
+            // $user -> password = "updated";
+            // $user -> first_name = "updated";
+            // $user -> last_name = "updated";
+            // $user -> save();
 
             // $user = new User();
            
